@@ -1,0 +1,26 @@
+{
+  "name": "repo-story",
+  "version": "1.0.0",
+  "description": "Transform GitHub repository history into a narrative story about the development process",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "demo": "node index.js vvanessaww/git-art"
+  },
+  "keywords": [
+    "github",
+    "repository",
+    "story",
+    "narrative",
+    "commit-history",
+    "development-process",
+    "portfolio"
+  ],
+  "author": "vvanessaww",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^22.0.1",
+    "dotenv": "^17.3.1"
+  }
+}
